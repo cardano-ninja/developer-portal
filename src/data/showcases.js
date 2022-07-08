@@ -1058,6 +1058,15 @@ const Showcases = [
     source: null,
     tags: [ "analytics", "explorer"],
   },
+  {
+    title: "Cardano Ninja",
+    description:
+      "Decentralized marketplace (classified ads)",
+    preview: require("./showcase/cardanoninja.png"),
+    website: "https://cardano.ninja",
+    source: "https://github.com/cardano-ninja/cardano-ninja",
+    tags: [ "opensource", "metadata"],
+  },
 ];
 
 export const TagList = Object.keys(Tags);
